@@ -18,10 +18,6 @@ const clickHandler = event => {
 	}
 };
 
-
-
-console.log('put whatever you want here');
-
 var gameButtons = document.getElementsByClassName('gamebutton');
 for(let i = 0; i < gameButtons.length; i++){
 	gameButtons[i].addEventListener('click', clickHandler);
